@@ -1,0 +1,37 @@
+body {
+    color: #dbf0f3;
+    background: linear-gradient(to right, #052a3e, #064d66    ); /* Gradiente de cor de fundo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar toda a altura da viewport */
+    color: #dbf0f3;
+    background: linear-gradient(to right, #052a3e, #064d66    ); /* Gradiente de cor de fundo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 px;
+}
+
+.texto-diagonal {
+    position: relative;
+    transform: rotate(-45deg); /* Rotaciona o texto em 45 graus */
+}
+
+.texto-diagonal p {
+    margin: 0;
+    font-size: 100px;
+    color: #dbf0f3;
+    font-weight: bold;
+    position: relative;
+    left: 20px; /* Espaço entre as linhas diagonais */
+}
+

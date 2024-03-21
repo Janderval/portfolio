@@ -1,0 +1,46 @@
+body {
+    color: #fff;
+    background: linear-gradient(to right, #052a3e, #064d66    ); /* Gradiente de cor de fundo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #dbf0f3, #dbf0f3    ); /* Gradiente de cor de fundo */        
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #121212;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    color: #dbf0f3;
+    margin-top: 30px;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ccc;
+}

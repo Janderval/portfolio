@@ -1,0 +1,92 @@
+body {
+    color: #dbf0f3;
+    background: linear-gradient(to right, #052a3e, #064d66    ); /* Gradiente de cor de fundo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 px;
+}
+
+header .cabecario {
+    display: flex;
+    padding: 0px 30px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #dbf0f3    ; /* Cor da borda */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 30px 200px;
+}
+
+.intro {
+    flex: 1;
+    max-width: 600px;
+}
+
+.title h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    font-size: 24px;
+    color: #849494;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 12px 20px;
+    background: linear-gradient(to left, #041e31, #064d66);
+    border: 1px solid #dbf0f3    ; /* Cor da borda */
+    color: #dbf0f3;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-size: larger;
+}
+
+.imagem {
+    width: 250px; /* Tamanho do contêiner da imagem */
+    height: 300px; /* Tamanho do contêiner da imagem */
+    border: 3px solid #dbf0f3    ; /* Cor da borda */
+    border-radius: 50%; /* Deixar a borda redonda */
+    overflow: hidden; /* Para esconder as partes da imagem fora do contêiner */
+    background: linear-gradient(to bottom right, #48565e, #dbf0f3); /* Gradiente de cor de fundo */
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/Imagem2.svg'); /* Caminho para a imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.texto h2{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+}
+span{
+    color: #2bb3c3;
+}
