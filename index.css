@@ -67,7 +67,7 @@ header .cabecario {
 .foto {
     width: 100%;
     height: 100%;
-    background-image: url('img/Imagem2.svg'); /* Caminho para a imagem */
+    background-image: url('Imagem2.svg'); /* Caminho para a imagem */
     background-size: cover;
     background-position: center;
 }
